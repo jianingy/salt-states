@@ -8,6 +8,7 @@ base:
     - server.network
     - server.kvm
     - users.jianingy
+    - users.passwd
 
   'iota.nostack.in':
     - server.base
@@ -17,4 +18,5 @@ base:
     - server.network
     - server.kvm
     - users.jianingy
+    - users.passwd
     - desktop.jianingy
