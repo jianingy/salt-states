@@ -7,6 +7,7 @@
 {{ user_id }}:
   user.present:
     - fullname: Jianing Yang
+    - password: {{ pillar['users']['jianingy']['password'] }}
     - shell: /bin/zsh
     - home: {{ user_home }}
     - createhome: False
