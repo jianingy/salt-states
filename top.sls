@@ -9,7 +9,7 @@ base:
     - server.kvm
     - users.jianingy
 
-  'iota.nostack.in':
+  'iota.nostack.in,iostack':
     - server.base
     - server.salt-minion
     - server.devel
