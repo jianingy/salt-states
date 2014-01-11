@@ -1,7 +1,7 @@
 # -*- mode: YAML -*-
 
 {% set user_id = 'jianingy' %}
-{% set user_home = '/home/jianingy' %}
+{% set user_home = pillar['users'][user_id]['home'] %}
 
 desktop_softwares:
   pkg.installed:
@@ -17,6 +17,7 @@ desktop_softwares:
       - vlc
       - wireshark
       - fabric
+      - python-keyring
 
 vcsh_x11_init:
   cmd.run:
