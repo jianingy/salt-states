@@ -1,4 +1,10 @@
 base:
+  'vg*':
+    - server.base
+    - server.devel
+    - server.troubleshooting
+    - server.network
+    - users.jianingy
 
   'dev*':
     - server.base
