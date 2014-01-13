@@ -13,7 +13,6 @@
     - createhome: False
     - groups:
       - sudo
-      - libvirtd
 
 create_home_manually:
   cmd.run:
