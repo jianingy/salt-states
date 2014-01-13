@@ -1,5 +1,5 @@
 base:
-  'base_*':
+  'base-*':
     - server.base
     - server.devel
     - server.troubleshooting
