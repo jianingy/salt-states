@@ -30,6 +30,6 @@ xmonad:
     file:
     - managed
     - source: salt://desktop/xmonad/xmonad-gnome-session
-    - mode: 644
+    - mode: 755
     - require:
         - pkg: xmonad

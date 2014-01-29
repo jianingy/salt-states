@@ -46,3 +46,9 @@ vcsh_update:
     - cwd: {{ user_home }}
     - require:
       - cmd: vcsh_init
+
+extend:
+  jianingy:
+    user:
+      groups:
+        - libvirtd
