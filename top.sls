@@ -22,7 +22,7 @@ base:
     - server.kvm
     - users.jianingy
 
-  'iota.nostack.in':
+  'iota.*':
     - server.base
     - server.salt-minion
     - server.devel
@@ -30,6 +30,7 @@ base:
     - server.network
     - server.kvm
     - users.jianingy
+    - desktop.xmonad
     - desktop.jianingy
 
   'iostack':

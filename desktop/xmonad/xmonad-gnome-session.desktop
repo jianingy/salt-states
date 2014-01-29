@@ -1,0 +1,9 @@
+# DONT EDIT MANUALLY: Saltstack Managed File.
+
+[Desktop Entry]
+Name=GNOME/XMonad
+Encoding=UTF-8
+Comment=Tiling window manager
+Exec=/usr/bin/xmonad-gnome-session
+TryExec=gnome-session
+Type=XSession

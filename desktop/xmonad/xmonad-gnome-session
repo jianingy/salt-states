@@ -1,0 +1,5 @@
+#!/bin/bash
+
+[ -x ~/.xinitrc.local ] && ~/.xinitrc.local
+
+exec gnome-session --session=xmonad-gnome
